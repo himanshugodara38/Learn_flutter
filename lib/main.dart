@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       
      
       debugShowCheckedModeBanner: false,
-      initialRoute: MyRoutes.homeRoute ,
+     
       routes: {
         "/": (context) => Log_in_page(),
          MyRoutes.homeRoute :(context) => HomePage()
